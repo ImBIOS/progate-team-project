@@ -8,8 +8,16 @@
   }
   .footer-content {
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
   }
+
+  .footer-content .content-about,
+.footer-content .content-social,
+.footer-content .content-pesan{
+  flex:100%;
+	width: 100%;
+	height: auto;
+}
   /* footer */
 
   
@@ -17,4 +25,31 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  /*header start*
+  .navbar{
+    overflow: visible;
+  }
+  .menu{
+    width: 100%;
+    right: 0;
+    top: 80px;
+    background: #f1f1f1;
+    overflow: hidden;
+    max-height: 0;
+  }
+  .menu a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+  }
+  .btn{
+    display: block;
+    cursor: pointer;
+  }
+  .show{
+    max-height: 500px;
+  }
+}
+  /*header end*/
 }
