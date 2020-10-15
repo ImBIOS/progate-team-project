@@ -66,90 +66,24 @@ img {
 /* Imam END*/
 
 /* bagian header dimas */
-.navbar{
+.navbar {
   position: fixed;
   height: 80px;
-  overflow: hidden;
-  top: 0;
-  display: flex;
-  align-items: center;
-  background: #f368e0;
-  width: 100%;
-  z-index:20;
-}
-.logo{
-  background: url(../img/imgheader/logo4.png) no-repeat 50% 50%;
-  background-size: contain;
-  width: 200px;
-  height: 50px;
-  float: left;
-  margin-left:20px;
-}
-.menu{
-  position: absolute;
-  right: 20px;
-  margin-bottom: 20px;
-  padding-bottom: 100px;
-}
-.menu a{
-  color: #333;
-  text-decoration: none;
-  font-weight: 700;
-  margin-left: 20px;
-  transition: color 0.3s;
-  text-transform: uppercase;
-}
-.menu a:hover{
-  color: #6ab04c;
-}
-/*
-.header{
-  width: 100%;
-  height: 600px;
-  background: url(../img/imgheader/sampul.jpg) no-repeat 50% 50%;
-  background-size: cover;
-  margin-top: 80px;
-}*/
-.btn {
-  display: none;
-  position: absolute;
-  right: 20px;
-}
-.btn:hover > span{
-  background: #6ab04c;
-}
-.btn span{
-  display: block;
-  margin: 6px;
-  width: 40px;
-  height: 3px;
-  background: #333;
-}
-p{
-  padding: 20px;
-  font-size: 20px;
-  text-align: justify;
-
+  
 }
 /* end dimas */
 
 /*nirvana */
-.main {
+.main-tentang{
 padding: 150px 0 80px 0;
-background: url(../img/main_background.png);
-background-size: cover;
 color:white;
 opacity: 0.9;
 text-align: center;
-transition: width 2s;
+
 }
 .main-container h2{
   font-size: 20px;
   font: Arial;
-}
-main:hover {
-  width: 100%;
-  height: 100%;
 }
 }
 .main-container h3{
@@ -210,6 +144,7 @@ main:hover {
     width: 100%;
     height: auto;
 		padding-top: 40px;
+		position: relative;
 }
 
 .footer-content .content-pesan h3,
@@ -221,8 +156,9 @@ main:hover {
 }
 
 .footer-content .content-pesan h3 {
-	padding-left: 60px;
+	padding-left: 80px;
 }
+
 
 .footer-content .content-social p{
   text-align: justify;
@@ -239,13 +175,13 @@ main:hover {
   border: none;
   outline: 1px solid #8395a7;
   background-color: #8395a7;
-	width: 100%;
+	width: 70%;
 }
 .footer-content .content-pesan .isi{
   background-color: #8395a7;
   outline: 1px solid #8395a7;
   border: none;
-	width: 100%;
+	width: 70%;
 	height: 50px;
 }
 .footer-content .content-pesan .btn{
