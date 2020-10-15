@@ -192,8 +192,30 @@ footer{
 /*nirvana */
 .main {
 padding: 150px 0 80px 0;
-background-image: url(../img/background_main.jpg);
-background-size: cover;
+background: linear-gradient(to #f39c12 #e74c3c  #9b59b6 );
 color:grey;
 text-align: center;
+
 }
+
+
+/* cici */
+.contents {
+  height: 500px;
+   margin-top:100px;
+}
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size:28px;
+  padding-bottom:15px;
+  margin-bottom:50px;
+}
+.contents-item {
+  float: left;
+  margin-right:40px;
+}
+.contents-item p {
+  font-size:24px;
+  margin-top:30px;
+}
+/* cici end */
