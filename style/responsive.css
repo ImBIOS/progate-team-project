@@ -11,7 +11,7 @@
     flex-direction: row;
   }
 
-  .footer-content .content-about,
+.footer-content .content-about,
 .footer-content .content-social,
 .footer-content .content-pesan{
   flex:100%;
@@ -25,8 +25,8 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  /*header start*
-  .navbar{
+  /*header start*/
+   .navbar {
     overflow: visible;
   }
   .menu{
@@ -52,4 +52,9 @@
   }
 }
   /*header end*/
+  /*main start*/
+.main-tentang{
+ text-align: left;
+ font-size: 20px;
+}
 }
