@@ -124,7 +124,7 @@ img {
 /*nirvana */
 .main-tentang{
 padding: 150px 0 80px 0;
-background: url(/img/main_background.png);
+background: url(../img/main_background.png);
 background-size:cover;
 color:white;
 opacity: 0.9;
